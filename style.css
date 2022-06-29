@@ -51,9 +51,7 @@ img{
     padding: 20px;
     zoom: 0.8;
 }
- i{
-    
- }
+ 
 
 .date_eth img{
     width: 100%;
@@ -69,6 +67,9 @@ img{
 .name-text h1{
     font-size: 22px;
     margin-bottom: 10px;
+}
+.name-text h1:hover{
+    color: var(--cyan);
 }
 .name-text p{
     font-weight: 300;
@@ -115,9 +116,16 @@ img{
 .profile-sec p{
     margin-bottom: 0;
     margin-left: 10px;
+    font-size: 20px;
+    font-weight: 500;
 }
 .profile-sec p span{
     color: white;
+    font-size: 20px;
+
+}
+.profile-sec p span:hover{
+    color: var(--cyan);
 }
 .profile-sec{
     display: flex;
