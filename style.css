@@ -1,0 +1,142 @@
+
+:root {
+    --soft-blue:  hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --main-bg:  hsl(217, 54%, 11%);
+    --card-bg: hsl(216, 50%, 16%);
+    --line-color: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+ 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+} 
+body{
+    background-color: var(--main-bg);
+}
+.container{
+    height: 100vh;
+    width: 100vw; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+p{
+   font-size: 15px;
+ }
+img{
+    width: 100%;
+}
+.name-text{
+    
+}
+
+.line{
+    border-bottom: 1px solid var(--line-color);
+    margin-bottom: 20px;
+}
+.card{
+    margin: auto;
+   /* // text-align: center; */
+    background-color: var(--card-bg);
+    height: auto;
+    width: 58vh;
+    border-radius: 10px;
+    box-shadow: 6px 16px 21px #00000024;
+    padding: 20px;
+    zoom: 0.8;
+}
+ i{
+    
+ }
+
+.date_eth img{
+    width: 100%;
+}
+.nft-main-card img{
+    border-radius: 10px;
+    width: 100%;
+}
+.name-text{
+    color: white;
+    margin-top: 20px;
+}
+.name-text h1{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.name-text p{
+    font-weight: 300;
+    color: var(--soft-blue);
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.eth img{
+    width: 10px;
+    margin-right: 5px;
+}
+
+.eth{
+    display: flex;
+    align-items: center;
+}
+.eth p{
+    margin-bottom: 0;
+}
+.dates img{
+    width: 15px;
+    margin-right: 5px;
+}
+
+.dates{
+    display: flex;
+    align-items: center;
+}
+.dates p{
+    margin-bottom: 0;
+}
+.date_eth{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.profile-sec img{
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.profile-sec p{
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+.profile-sec p span{
+    color: white;
+}
+.profile-sec{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+ 
+.attribution {
+    font-size: 10px;
+    text-align: center;
+    color: white;
+    margin-top: -3%;
+    /* margin-bottom: 20px; */
+  }
+
+  .attribution a {
+    font-weight: 700;
+    color: var(--cyan)
+  }
+ 
